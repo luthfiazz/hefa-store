@@ -4,6 +4,7 @@ body {
 
 .navbar {
   background-color: #171717;
+  border-bottom: 1px solid #333;
 }
 
 .nav-item {
@@ -70,4 +71,55 @@ footer p {
 
 .figure-img:hover a {
   opacity: 1;
+}
+
+
+/* Breadcrumbs */
+.breadcrumb {
+  margin-top: 100px;
+}
+
+.product-thumbnail-container {
+  background-color: white;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  width: 360px;
+  padding: 8px;
+  margin: auto;
+  transform: translateY(-50px);
+}
+
+.product-thumbnail-container a:hover {
+  text-decoration: none;
+}
+
+.btn-product {
+  margin: 50px 0;
+  padding-bottom: 1px solid;
+  border-bottom: 1px solid #EAEAEF;
+}
+
+.btn-product .btn {
+  display: block;
+  margin: 10px 0;
+}
+
+.design-by h5 {
+  font-size: 14px;
+  font-weight: 200;
+  color: #b7b7b7;
+}
+
+.design-by h4 {
+  font-size: 18px;
+  color: #171717;
+}
+
+.design-by p {
+  font-size: 14px;
+  font-weight: 200;
+  color: #171717;
+}
+
+.design-by p span {
+  color: #b7b7b7;
 }
